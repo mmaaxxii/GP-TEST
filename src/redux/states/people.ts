@@ -20,3 +20,7 @@ export const peopleSlice = createSlice({
     }
 
 });
+
+export const { addPeople } = peopleSlice.actions;
+
+export default peopleSlice.reducer;
